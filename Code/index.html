@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Number Game</title>
+  </head>
+  <body>
+    <div class="app">
+      <h1>Number Game</h1>
+      <div class="game-container">
+        <div class="header">
+          <span id="time"></span>
+          <span id="lives">Nombre de vie(s): 5</span>
+        </div>
+        <div class="body">
+          <h2 id="answer">Appuyez sur PLAY</h2>
+          <form>
+            <input
+              type="number"
+              name="find-number"
+              id="number"
+              placeholder="Choisir un Nombre..."
+              max="100"
+            />
+          </form>
+          <button id="play">PLAY</button>
+        </div>
+      </div>
+      <p id="rule">Choisir un Nombre entre 1 et 100</p>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

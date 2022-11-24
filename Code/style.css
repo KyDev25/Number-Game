@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #000;
+}
+
+.app{
+    color: white;
+}
+
+.app h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50px;
+    border-bottom: solid 2px white;
+    padding-bottom: 30px;
+}
+
+.game-container{
+    border: solid 2px white;
+    width: 35%;
+    height: 300px;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+.game-container .header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.game-container .header #time{
+    margin-left: 10px;
+}
+
+.game-container .header #lives{
+    margin-right: 10px;
+}
+
+.game-container .body{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.game-container .body #answer{
+    font-size: 45px;
+}
+
+.game-container .body form input[type="number"]{
+    margin-top: 20px;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+    border-radius: 90px;
+    transition: 0.5s;
+}
+
+.game-container .body form input[type="number"]:hover{
+    transform: scale(1.1);
+    font-style: italic;
+    box-shadow: 0 0 2px 2px white;
+}
+
+.game-container .body button{
+    width: 15%;
+    border-radius: 10px;
+    padding: 3px;
+    margin-top: 50px;
+    transition: 0.5s;
+}
+
+.game-container .body button:hover{
+    transform: scale(1.1);
+    font-weight: bold;
+    box-shadow: 0 0 2px 2px white;
+}
+
+#rule{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
